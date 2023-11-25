@@ -24,7 +24,7 @@ bir.addEventListener("click", () => {
         uc.style.display = "none";
         sa.style.display = "none";
         section.style.backgroundColor = "red";
-        eye.innerHTML = "😊";
+        eye.innerHTML = "😒";
     }
 });
 
@@ -67,3 +67,5 @@ uc.addEventListener("click", () => {
         eye.innerHTML = "😊";   
     }
 });
+
+
