@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+  gap: 100px;
+}
+section #head {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+}
+section #head h1 {
+  color: white;
+}
+section #head #eye {
+  font-size: 35px;
+}
+section #all {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section #all #unhappy, section #all #neutral, section #all #satisfied {
+  width: 32%;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+section #all #unhappy h2, section #all #neutral h2, section #all #satisfied h2 {
+  color: white;
+  font-size: 20px;
+}
+section #btn {
+  width: 300px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
